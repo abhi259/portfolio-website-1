@@ -5,7 +5,7 @@ import {
 } from "react-icons/ai"
 
 import { DiJsBadge, DiCss3, DiReact, DiHtml5, DiPython } from "react-icons/di"
-import { SiTailwindcss, SiFigma, SiBootstrap,SiArtstation } from "react-icons/si"
+import { SiTailwindcss, SiFigma, SiBootstrap } from "react-icons/si"
 
 export default function Main() {
   return (
@@ -28,7 +28,11 @@ export default function Main() {
           <AiFillYoutube />
         </div>
         <div className=" mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 justify-center items-center overflow-hidden md:h-96 md:w-96">
-          <img className="pt-12 scale-[1.34]" src="dev-ed-wave.png" />
+          <img
+            className="pt-12 scale-[1.34]"
+            src="dev-ed-wave.png"
+            alt="abcd"
+          />
         </div>
       </div>
 
@@ -45,85 +49,125 @@ export default function Main() {
         <p className="text-xl py-2 leading-8 dark:text-[#cccccc]">
           Here are a few technologies I’ve been working with recently:
         </p>
-        <ul className=" grid grid-cols-3 justify-center text-slate-900 dark:text-[#b3b3b3]">
-          <li className="flex items-center gap-2"> <DiHtml5/>HTML</li>
-          <li className="flex items-center gap-2"> <DiCss3/>CSS</li>
-          <li className="flex items-center gap-2"> <DiJsBadge/> JavaScript</li>
-          <li className="flex items-center gap-2"><DiReact/>React</li>
-          <li className="flex items-center gap-2"> <DiPython/>Python </li>
-          <li className="flex items-center gap-2"><SiTailwindcss/>TailWind</li>
-          <li className="flex items-center gap-2"><SiFigma/>Figma</li>
-          <li className="flex items-center gap-2"><SiBootstrap/>Bootstrap</li>
+        <ul className=" grid grid-cols-3 justify-center text-slate-900 dark:text-[#b3b3b3] text-lg mt-6 ">
+          <li className="flex items-center gap-2 ">
+            {" "}
+            <DiHtml5 />
+            HTML
+          </li>
+          <li className="flex items-center gap-2">
+            {" "}
+            <DiCss3 />
+            CSS
+          </li>
+          <li className="flex items-center gap-2">
+            {" "}
+            <DiJsBadge /> JavaScript
+          </li>
+          <li className="flex items-center gap-2">
+            <DiReact />
+            React
+          </li>
+          <li className="flex items-center gap-2">
+            {" "}
+            <DiPython />
+            Python{" "}
+          </li>
+          <li className="flex items-center gap-2">
+            <SiTailwindcss />
+            TailWind
+          </li>
+          <li className="flex items-center gap-2">
+            <SiFigma />
+            Figma
+          </li>
+          <li className="flex items-center gap-2">
+            <SiBootstrap />
+            Bootstrap
+          </li>
         </ul>
       </div>
-      {/* <div className="lg:flex gap-10 justify-between">
-        <div className="text-center shadow-lg p-10 rounded-xl my-10 item bg-[#e9e9e9]">
-          <img src="design.png" className="w-24 h-24 mx-auto" />
-          <h3 className="text-large font-medium pt-8 pb-2">
-            Beautiful Designs
-          </h3>
-          <p className="py-2">
-            Creating elegant designs suited for your needs following core design
-            theory{" "}
-          </p>
-          <h4 className="py-4 text-teal-600">Design tools I use</h4>
-          <p className="text-gray-800 py-1">Photoshop</p>
-          <p className="text-gray-800 py-1">Illustrator</p>
-          <p className="text-gray-800 py-1">Figma</p>
-        </div>
-
-        <div className="text-center shadow-lg p-10 rounded-xl my-10 item bg-[#e9e9e9]">
-          <img src="consulting.png" className="w-24 h-24 mx-auto" />
-          <h3 className="text-large font-medium pt-8 pb-2">
-            Beautiful Designs
-          </h3>
-          <p className="py-2">
-            Creating elegant designs suited for your needs following core design
-            theory{" "}
-          </p>
-          <h4 className="py-4 text-teal-600">Design tools I use</h4>
-          <p className="text-gray-800 py-1">Photoshop</p>
-          <p className="text-gray-800 py-1">Illustrator</p>
-          <p className="text-gray-800 py-1">Figma</p>
-        </div>
-
-        <div className="text-center shadow-lg p-10 rounded-xl my-10 item bg-[#e9e9e9]">
-          <img src="code.png" className="w-24 h-24 mx-auto" />
-          <h3 className="text-large font-medium pt-8 pb-2">
-            Beautiful Designs
-          </h3>
-          <p className="py-2">
-            Creating elegant designs suited for your needs following core design
-            theory{" "}
-          </p>
-          <h4 className="py-4 text-teal-600">Design tools I use</h4>
-          <p className="text-gray-800 py-1">Photoshop</p>
-          <p className="text-gray-800 py-1">Illustrator</p>
-          <p className="text-gray-800 py-1">Figma</p>
-        </div>
-      </div> */}
 
       <div>
         <h3 className="text-3xl pt-16 dark:text-[#cccccc]">Portfolio</h3>
       </div>
       <div className="flex flex-col gap-10 py-10 md:grid md:gap-4 md:grid-cols-3  ">
         <div className="">
-          <img src="web1.png" className="rounded-lg grow h-[100%]" />
+          <a href="https://strong-duckanoo-97c230.netlify.app/" target="_blank">
+            <img
+              src="clickCounter.png"
+              alt="abcd"
+              className="rounded-lg grow h-[100%]"
+            />
+          </a>
         </div>
         <div className="">
-          <img src="web2.png" className="rounded-lg grow h-[100%]" />
+          <a
+            href="https://euphonious-heliotrope-2029f2.netlify.app/"
+            target="_blank"
+          >
+            <img
+              src="random-number-generator-output-v2.gif"
+              alt="abcd"
+              className="rounded-lg grow h-[100%]"
+            />
+          </a>
         </div>
         <div className="">
-          <img src="web3.png" className="rounded-lg grow h-[100%]" />
+          <a
+            href="https://fastidious-llama-c65447.netlify.app/"
+            target="_blank"
+          >
+            <img
+              src="app-store-output.gif"
+              alt="abcd"
+              className="rounded-lg grow h-[100%]"
+            />
+          </a>
+        </div>
+
+        <div className="">
+          <a href="https://luminous-horse-7c70ef.netlify.app/" target="_blank">
+            <img
+              src="letters-calculator-output-v2.gif"
+              alt="abcd"
+              className="rounded-lg grow h-[100%]"
+            />
+          </a>
         </div>
         <div className="">
-          <img src="web4.png" className="rounded-lg grow h-[100%]" />
+          <a
+            href="https://leafy-semifreddo-0ada24.netlify.app/"
+            target="_blank"
+          >
+            <img
+              src="gallery-output.gif"
+              alt="abcd"
+              className="rounded-lg grow h-[100%]"
+            />
+          </a>
+        </div>
+
+        <div className="">
+          <a
+            href="https://jocular-paprenjak-435b24.netlify.app/"
+            target="_blank"
+          >
+            <img
+              src="SearchDestination.png "
+              alt="abcd"
+              className="rounded-lg grow h-[100%]"
+            />
+          </a>
         </div>
         <div className="">
-          <img src="web5.png" className="rounded-lg grow h-[100%]" />
-        </div>
-        <div className="">
-          <img src="web6.png" className="rounded-lg grow h-[100%]" />
+          <a href="https://heartfelt-otter-c15572.netlify.app/" target="_blank">
+            <img
+              src="coin-toss-game-output.gif"
+              alt="abcd"
+              className="rounded-lg grow h-[100%]"
+            />
+          </a>
         </div>
       </div>
     </div>
