@@ -10,7 +10,7 @@ import {
 
 export default function Main() {
   return (
-    <div>
+    <div >
       <div className="flex flex-col justify-center items-center">
         <div className="text-left mx-auto py-10 ">
           <h3 className="text-sm py-2 md:text-lg  dark:text-[#cccccc]">

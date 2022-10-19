@@ -11,15 +11,15 @@ export default function Navbar({ darkMode, setDarkMode }) {
           abhishekpatil.me
         </h1>
       </div>
-      <ul className="flex items-center">
+      <ul className="flex items-center  ">
         <li
           onClick={() => setDarkMode(!darkMode)}
-          className="cursor-pointer text-4xl "
+          className="cursor-pointer text-4xl   "
         >
           {darkMode ? (
-            <MdDarkMode className="text-[#efefef]  " />
+            <MdDarkMode className="text-[#efefef] " />
           ) : (
-            <BsSunFill className="text-[#ffbe56]  " />
+            <BsSunFill className="text-[#ffbe56] " />
           )}
         </li>
         <li></li>

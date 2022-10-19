@@ -6,17 +6,20 @@ export default function ReactApps() {
       </div>
       <div className="flex flex-col gap-12 py-10 md:grid md:gap-4 md:grid-cols-3   ">
         {/* Money Manager */}
-        <div className="relative cursor-pointer">
-          <div className=" inset-0 z-0">
+        <div className="relative cursor-pointer ">
+          <div className=" inset-0 z-0 ">
             <img
               src="money-manager-output.gif"
               alt="abcd"
-              className="rounded-lg grow h-[100%]"
+              className="grow h-[100%] rounded-xl"
             />
           </div>
           <a href="https://jovial-sundae-02375d.netlify.app/">
-          <div className="opacity-0 hover:opacity-90 duration-300 absolute inset-0 z-10 flex justify-center  items-center bg-[#090d17] rounded-xlg">
-              <h1 className="text-white font-bold text-lg text-center"> MONEY MANAGER</h1>
+            <div className="opacity-0 hover:opacity-90 duration-300 absolute inset-0 z-10 flex justify-center  items-center bg-[#090d17] rounded-xl">
+              <h1 className="text-white font-bold text-lg text-center">
+                {" "}
+                MONEY MANAGER
+              </h1>
             </div>
           </a>
         </div>
@@ -26,12 +29,14 @@ export default function ReactApps() {
             <img
               src="emoji-game-output-v2.gif"
               alt="abcd"
-              className="rounded-lg grow h-[100%]"
+              className="rounded-xl grow h-[100%]"
             />
           </div>
           <a href="https://admirable-selkie-3deb69.netlify.app/">
-            <div className="opacity-0 hover:opacity-90 duration-300 absolute inset-0 z-10 flex justify-center items-center bg-[#090d17] rounded-xlg">
-              <h1 className="text-white font-bold text-lgtext-center">EMOJI GAME</h1>
+            <div className="opacity-0 hover:opacity-90 duration-300 absolute inset-0 z-10 flex justify-center items-center bg-[#090d17] rounded-xl">
+              <h1 className="text-white font-bold text-lgtext-center">
+                EMOJI GAME
+              </h1>
             </div>
           </a>
         </div>
@@ -52,11 +57,11 @@ export default function ReactApps() {
             <img
               src="coin-toss-game-output.gif"
               alt="abcd"
-              className="rounded-lg grow h-[100%]"
+              className="rounded-xl grow h-[100%]"
             />
           </div>
           <a href="https://heartfelt-otter-c15572.netlify.app/">
-            <div className="opacity-0 hover:opacity-90 duration-300 absolute inset-0 z-10 flex justify-center items-center bg-[#090d17] rounded-xlg">
+            <div className="opacity-0 hover:opacity-90 duration-300 absolute inset-0 z-10 flex justify-center items-center bg-[#090d17] rounded-xl">
               <h1 className="text-white font-bold text-lg">HEADS/TAILS</h1>
             </div>
           </a>
